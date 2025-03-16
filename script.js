@@ -1,5 +1,5 @@
 (function() {
-    let choice = prompt("E to select a specific option or '2' for random selection:");
+    let choice = prompt(" to select a specific option or '2' for random selection:");
 
     if (choice === "1") {
         let index = parseInt(prompt("Enter the option index to select (starting from 1):"), 10);
