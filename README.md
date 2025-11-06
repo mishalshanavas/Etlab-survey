@@ -1,24 +1,27 @@
+# ETLAB Survey F**r
+
+Forget clicking your way through 47 identical "feedback" questions — this script does the heavy lifting while you just exist.
+Clean, minimal, no unnecessary shit.
+
+## Why This Exists
+ETLAB feedback feels like a side quest nobody asked for. This script turns that 10-minute slog into a **10-second speedrun**.
+
+## How To Use
+
+1. Open the ETLAB feedback page
+2. Press `F12` → Console tab
+3. Paste the script below
+4. If your browser cries, type `allow pasting`
+5. Choose the mode:
+   * **Fixed Value** → consistent answers
+   * **Random Fill** → absolute chaos
+6. Submit → close laptop → go outside for once
 
 
-https://github.com/user-attachments/assets/43172036-f3e0-46d2-840f-779c4996d7c6
-# ETLAB Survey Speed Run Script
+## The Script
 
-bruh tired of clicking through endless ETLAB feedback forms? this script hits different fr fr
-
-literally nobody has time to manually select "strongly agree" on 47 different questions about whether the professor's powerpoint font was readable
-
-## What this bad boy does
-- picks the same option for literally everything (default is option 2 cuz that's usually the sweet spot)
-- OR goes full chaos mode and randomizes everything 
-- works on dropdowns AND those annoying radio buttons
-- basically turns a 10-minute survey into a 10-second speedrun
-
-## How to use (it's giving main character energy)
-1. navigate to that ETLAB feedback page (ugh why do they make us do this)
-2. crack open that developer console  (`F12` then click Console)
-3. paste this absolute unit of a script (might need to type "allow pasting" first because browsers are paranoid like that)
-   ```javascript
-   (function() {
+```javascript
+(function() {
     'use strict';
     
     const CONFIG = {
@@ -191,16 +194,24 @@ literally nobody has time to manually select "strongly agree" on 47 different qu
     }
     
     console.log(`Operation completed: ${successCount} successful, ${totalElements - successCount} failed`);
-    })();
-4. watch the magic happen (it'll ask if you want specific options or just yolo it)
-5. hit submit and touch grass
+})();
+```
 
-## Pro tips for maximum efficiency
-- default option 2 is usually the "yeah it was fine" answer 
-- random mode is perfect when you literally cannot be bothered
-- works on any form with dropdowns and radio buttons 
 
-no cap this will save you more time than you know what to do with. your future self will thank you when you're not getting held hostage by a 47-question survey just because you wanted to check if you passed that exam you definitely bombed
+## Tips
 
-## Legal disclaimer or whatever
-use responsibly bestie. don't blame me if your professor asks why you rated their teaching style as "excellent" when they exclusively communicate through interpretive dance
+* Option **2** is the "Yeah it's fine" universal safe answer
+* Random mode is for days when your soul has left your body
+* Works on nearly any survey with selects + radio inputs
+
+
+## Disclaimer
+
+Use your brain. If your professor communicates exclusively via interpretive dance and you rated them "Outstanding", that's between you and your conscience.
+
+No responsibility taken for academic jump scares.
+
+
+Stay efficient.
+Stay unserious.
+Done.
