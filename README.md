@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/83383059-63f5-463b-a2e8-51f847ec0596
+
 # ETLAB Survey F**r
 
 Forget clicking your way through 47 identical "feedback" questions — this script does the heavy lifting while you just exist.
@@ -198,11 +200,6 @@ ETLAB feedback feels like a side quest nobody asked for. This script turns that 
 ```
 
 
-## Tips
-
-* Option **2** is the "Yeah it's fine" universal safe answer
-* Random mode is for days when your soul has left your body
-* Works on nearly any survey with selects + radio inputs
 
 
 ## Disclaimer
